@@ -1,0 +1,69 @@
+
+.gpt4-container {
+    height: 100vh;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bottom-section {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.input-container {
+position: relative;
+width: 100%;
+max-width: 800px;
+}
+
+textarea {
+width: 100%;
+/* line-height: 1rem; */
+resize: none;
+text-align: justify;
+/* overflow-y: auto; */
+
+border: none;
+border-radius: 0.5rem;
+padding: 0.7rem 3rem 0.7rem 0.8rem;
+font-size: 1.5rem;
+
+background-color: rgba(255, 255, 255, 0.05);
+box-shadow: rgba(0, 0, 0, 0.05) 0 3rem 3rem,
+rgba(0, 0, 0, 0.05) 0 -0.2rem 0.5rem,
+rgba(0, 0, 0, 0.05) 0 0.1rem  0.2rem,
+rgba(0, 0, 0, 0.05) 0 1rem 0.25rem,
+rgba(0, 0, 0, 0.05) 0 -0.2rem 0.3rem;
+}
+
+textarea:focus {
+outline: none;
+}
+
+
+/* textarea[rows="10"] {
+    max-height: 20rem;
+    overflow-y: scroll;
+} */
+
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#input-container__submit {
+    position: absolute;
+    right: 0;
+    bottom: 1.3rem;
+    cursor: pointer;
+    padding: 0 1rem;
+}
